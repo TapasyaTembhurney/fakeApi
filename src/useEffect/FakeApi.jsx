@@ -9,7 +9,8 @@ function FakeApi() {
         .then ((data)=> {
             console.log(data);
             setBlog(data);
-    })
+        })
+        .catch((error)=> console.error(error))
 },[blog])
     
   return (
