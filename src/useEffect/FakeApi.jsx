@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import BlogList from './BlogList'
-import axios from 'axios'
 function FakeApi() {
     const [blog,setBlog]= useState(null)
     useEffect(()=>{
